@@ -1,0 +1,41 @@
+<svg viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Abstract network graphic representing AI and connected systems">
+  <defs>
+    <style>
+      .node{ fill:#F5F3ED; stroke:#12181B; stroke-width:2; }
+      .node.signal{ fill:#E8543E; stroke:#E8543E; }
+      .node.teal{ fill:#1B7A72; stroke:#1B7A72; }
+      .edge{ stroke:#12181B; stroke-width:1.4; opacity:0.55; }
+    </style>
+  </defs>
+
+  <rect width="480" height="360" fill="#12181B" />
+
+  <!-- connecting edges -->
+  <line class="edge" x1="120" y1="90"  x2="240" y2="60"  />
+  <line class="edge" x1="120" y1="90"  x2="90"  y2="190" />
+  <line class="edge" x1="240" y1="60"  x2="330" y2="110" />
+  <line class="edge" x1="240" y1="60"  x2="220" y2="180" />
+  <line class="edge" x1="330" y1="110" x2="400" y2="90"  />
+  <line class="edge" x1="330" y1="110" x2="370" y2="220" />
+  <line class="edge" x1="90"  y1="190" x2="150" y2="280" />
+  <line class="edge" x1="90"  y1="190" x2="220" y2="180" />
+  <line class="edge" x1="220" y1="180" x2="150" y2="280" />
+  <line class="edge" x1="220" y1="180" x2="310" y2="270" />
+  <line class="edge" x1="370" y1="220" x2="310" y2="270" />
+  <line class="edge" x1="150" y1="280" x2="310" y2="270" />
+  <line class="edge" x1="60"  y1="300" x2="150" y2="280" />
+  <line class="edge" x1="400" y1="300" x2="310" y2="270" />
+
+  <!-- nodes -->
+  <circle class="node"        cx="120" cy="90"  r="8" />
+  <circle class="node signal" cx="240" cy="60"  r="10" />
+  <circle class="node"        cx="330" cy="110" r="7" />
+  <circle class="node teal"   cx="400" cy="90"  r="6" />
+  <circle class="node"        cx="90"  cy="190" r="9" />
+  <circle class="node teal"   cx="220" cy="180" r="11" />
+  <circle class="node"        cx="370" cy="220" r="7" />
+  <circle class="node signal" cx="150" cy="280" r="9" />
+  <circle class="node"        cx="310" cy="270" r="8" />
+  <circle class="node"        cx="60"  cy="300" r="5" />
+  <circle class="node"        cx="400" cy="300" r="6" />
+</svg>
